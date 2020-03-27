@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mmall1:war exploded">
+    <output-path>$PROJECT_DIR$/target/artifacts/mmall1_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mmall1" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.hashids:hashids:1.0.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.0.0.RELEASE" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="mmall1/web/Web" />
+    </root>
+  </artifact>
+</component>
